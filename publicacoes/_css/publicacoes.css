@@ -1,0 +1,296 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css?family=Anton|Bree+Serif|Do+Hyeon|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/* 
+	font-family: 'Do Hyeon', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Bree Serif', serif;
+ */
+
+/* ========== Layout ========== */
+/* Body */
+body{
+    padding-top: 100px;
+    background: linear-gradient(135deg, #4362B0 0%, #b69de8 52%,#bca7e8 76%,#e8e8e8 100%) no-repeat !important;
+	background-attachment: fixed !important;
+	background-size: cover !important;
+	height: 100vh;
+}
+body,html, .home{
+	height: 100vh;
+}
+
+/* Menu (Navbar) */
+#navbar_01{
+	background-color: rgba(0,0,0,0.85) !important;
+	padding: 15px 20px;
+}
+.navbar-brand{
+	font-family: 'Do Hyeon', sans-serif;
+	letter-spacing: 1px;
+}
+.nav-link{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 600;
+	color: #6973B0 !important;
+	transition: 0.1575s;
+}
+.nav-link:hover{
+	color: white !important;
+}
+.dropdown-menu{
+    background-color: #6973B0 !important;
+    transition: all 2s !important;
+}
+.dropdown-item{
+    color: white !important;
+    padding-left: 10px !important;
+    font-weight: 600 !important;
+}
+.dropdown-item:hover{
+    background-color: #C0C3E6 !important;
+}
+.dropdown-item:focus{
+    background-color: #C0C3E6 !important;
+}
+.divisor_01{
+	width: 2px;
+	background: gray;
+	height: 20px;
+	margin: 10px 10px;
+}
+
+.divisor_02{
+	width: 100%;
+	background: gray;
+	height: 2px;
+	margin: 10px 0px;
+}
+
+/* Contato - Logout*/
+.contato{
+    display: table;
+	width: 100%;
+	height: 100%;
+	padding-top: 60px;
+    padding: 0px !important;
+}
+.contato_login {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+	display: table-cell;
+	vertical-align: middle !important;
+}
+.contato_login h1{
+    color: white;
+	font-size: 50px;
+	letter-spacing: -3px;
+	margin-bottom: 10px;
+	font-family: 'Do Hyeon', sans-serif;
+	text-shadow: 2px 2px 1px black;
+}
+.contato_login h5{
+    color: lightgray;
+	font-size: 30px;
+	letter-spacing: -1px;
+	margin-bottom: 20px;
+	font-family: 'Do Hyeon', sans-serif;
+}
+.contato_login a{
+	background: rgba(0,0,0, 0.7);
+	border: 2px solid white;
+	color: white;
+	border-radius: 18px;
+	width: 350px;
+	transition: font-weight 0.1s, letter-spacing 0.1s;
+	margin: 10px;
+	padding: 10px 0px;
+	letter-spacing: -0.5px;
+	font-weight: 700;
+	transition: 0.3s;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.contato_login a:hover{
+	background: white;
+	color: black;
+}
+
+/* Contato - Login*/
+.contato_user{
+   
+}
+
+
+/* Footer */
+
+.footer{
+	background: black;
+	min-height: 100px;
+	padding: 10px;
+}
+.footer h1{
+	margin-top: 10px;
+	font-size: 20px;
+	color: lightgray;
+}
+.footer a:link {
+	text-decoration: none;
+}
+.btn_social{
+	width: 125px !important;
+	background: rgba(0,0,0, 0.0);
+	border: 2px solid white !important;
+	color: white;
+	border-radius: 17px !important;
+	margin: 0 auto !important;
+}
+.btn_face:hover{
+	background: #4267B2;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+.btn_insta:hover{
+	background: linear-gradient(45deg, #AB3EB5, #E23270, #FBBF59);
+	color: black;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+.btn_twitter:hover{
+	background: #1DA1F2;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+.btngp_social{
+	max-width: 384px;
+	min-width: 150px;
+	margin: 0 auto;
+}
+
+/* Modal */
+
+.btn_modal_submit{
+	background-color: #6973B0 !important;
+	border: 2px solid #6A74B1 !important;
+	color: white !important;
+	font-weight: 700 !important;
+}
+.btn_modal_submit:hover{
+	background-color: #D4D8F3 !important;
+	color: #323653 !important;
+	border: 2px solid white !important;
+}
+.btn_modal_cancel{
+	background-color: transparent !important;
+	color: #333754 !important;
+	font-weight: 700 !important;
+	border: 2px solid #333754 !important;
+}
+.btn_modal_cancel:hover{
+	background-color: #333754 !important;
+	color: white !important;
+	border: 2px solid white !important;
+}
+.modal-title{
+	font-size: 30px;
+	font-weight: bolder;
+	color: #323653 !important;
+}
+.modal-body label{
+	font-weight: 700;
+	font-size: 20px;
+}
+.modal-footer h5{
+	color: #6872AF !important;	
+}
+
+/* Publicações */
+.div-pub{
+    background: white;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 10px gray;
+    transition: transform 0.2s ease-in-out;
+    margin: 20px 0px 20px 0px;
+}
+.div-pub:hover{
+    transform: scale(1.01);
+}
+.div-pub-text{
+    text-indent: 30px;
+    width: 100%;
+    text-align: justify;
+    hyphens: auto;
+}
+.pub-title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    color: #6973B0;
+}
+.pub_autor{
+    border-top: 1px solid lightgray;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.tooltip-inner {
+    max-width: 550px !important;
+}
+
+
+/* Facebook */
+.fb-comments{
+    background-color: white;
+    margin: auto 0;
+}
+._1u9t{
+    resize: none !important;
+}
+.btnLeft{
+    background-color: #6973AC !important;
+}
+.btnLeft:focus{
+    box-shadow: 0 0 0 0.2rem rgba(105, 115, 172, 0.5) !important;
+}
+.btnLeft:hover {
+	background-color: #596191 !important;
+    border: 1px solid #596191 !important;
+    z-index: 2 !important;
+}
+
+/* Small Foonter */
+.div_footer{
+	width: 100%;
+	padding: 10px;
+    
+}
+.div_footer .small_top{
+	border-top: 1px solid lightgray;
+	padding-top: 10px;
+	padding-bottom: 15px;
+
+}
+/* ========== Media Query ========== */
+
+/* Capa da página inicial (home) */
+@media screen and (max-width: 1200px){
+	body{
+		background-position: 50% 25%;
+	}
+}
+
+@media screen and (min-height: 720px){
+    .div_footer {
+        position: fixed;
+        bottom: 0px;
+    }
+}
+
+@media (max-width: 991px){
+	.div_footer{
+		position: inherit !important;
+		bottom: auto !important;
+	}
+}
