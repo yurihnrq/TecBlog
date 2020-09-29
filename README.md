@@ -1,4 +1,5 @@
-# TecBlog
+# TecBlog (Descontinuado)
+(Futuramente será implementado em React)
 
 O projeto trata-se de um blog que resolvi desenvolver para melhorar, aprender e treinar meus conhecimentos sobre desenvolvimento WEB. Além disso, serviu como trabalho final para a matéria de Desenvolvimento e Projetos em TI do curso Técnico de Manutenção e Suporte em Informática que realizei np IFTM - Campus Uberlândia.
 
